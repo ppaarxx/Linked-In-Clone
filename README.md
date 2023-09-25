@@ -1,78 +1,33 @@
-# LinkedIn Clone
+Project Overview
+Our LinkedIn Clone project aims to provide users with a familiar and robust platform for connecting with professionals, sharing professional achievements, and exploring career opportunities.
 
-![LinkedIn Clone Demo](linkedin-gif.gif)
+User Authentication
+Secure user registration and login with email verification.
+OAuth integration for easy sign-in with Google and LinkedIn accounts.
+User Profiles
+Create and customize your professional profile.
+Add work experience, education, skills, and endorsements.
+Upload a profile picture and cover photo.
 
-**_Built using React JS, Redux, Firebase & Styled-Components_** within a week. My first project after learning React JS referencing a tutorial on YouTube by _'Clever Programmer'_. Added some features apart from the tutorial on my own like:
+Posts and Feed
+Share posts, articles, and updates with your network.
+Like, comment, and share posts from your connections.
+Personalized news feed with algorithmic content recommendations.
 
--   Post like functionality
--   Mobile responsiveness
+Installation
+Clone this repository.
+Navigate to the project directory.
+Install dependencies using npm install for both the frontend and backend.
+Configure environment variables for database connection, authentication.
+Run the development server using npm start.
 
-## Features and Fuctionality
 
--   Login using Google (Firebase Authentication)
--   Create a new post
--   Share photos and videos (React player for videos)
--   Like posts
--   Realtime update likes and posts
--   Auto authenticate user on refresh
--   Sign Out
+Contributing
+We welcome contributions from the open-source community! Please read our contribution guidelines before getting started.
 
-## How to build your own..?
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-1. Clone this repo
-1. Install all the dependencies
-    ```bash
-    npm i
-    ```
-1. Setup Firebase
-
-    - Create Firebase account
-    - Create a new project
-    - Create a web app for that
-    - Copy your config from there
-
-        - Select config option
-        - Paste those config inside firebase/config.js file
-
-    - Setup authentication using Google
-
-1. Tweak code as you like
-1. Let's build the optimized version
-
-    ```bash
-    npm run build
-    ```
-
-1. **Now for hosting on Firebase lets config Firebase locally**
-
-    - Install Firebase CLI
-    - Login to Firebase
-
-        ```bash
-        firebase login
-        ```
-
-    - Initialize Firebase
-
-        ```bash
-        firebase init
-        ```
-
-    - Select hosting in the menu
-    - Select your respective project from the list
-    - Select 'build' as your hosting directory and other options as you want
-    - Let's deploy our clone and make it live
-
-        ```bash
-        firebase deploy
-        ```
-
-**That's it our clone is up and running share it now**
-
-## Future Plans
-
--   Might add more login methods
--   Post deleting functionality
--   Add comments on post
-
-**_NOTE: PLEASE LET ME KNOW IF YOU DISCOVERED ANY BUG OR YOU HAVE ANY SUGGESTIONS_**
+Acknowledgments
+This project was inspired by the LinkedIn platform.
+Special thanks to the open-source community for their valuable contributions.
